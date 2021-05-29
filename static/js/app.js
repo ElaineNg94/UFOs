@@ -68,7 +68,7 @@ function updateFilters() {
   }
   
   // 2. Attach an event to listen for changes to each filter
-    //11.5.4????
+    //11.5.4
   d3.selectAll("input").on("change", updateFilters);
 
   // Build the table when the page loads
